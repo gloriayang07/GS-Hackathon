@@ -10,5 +10,5 @@ ds = Dataset('COVID19_COUNTRY_DAILY_WIKI')
 # print(data)  # peek at first few rows of data
 data = ds.get_data(start = datetime.date(2019,1,20), countryId=["US", "GB", "BR", "NZ", "IN"])
 print(data)
-data.reset_index(inplace=True)
-data.to_json(r'wiki.json')
+# data.reset_index(inplace=True)
+# data.to_json(r'wiki.json')
